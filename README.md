@@ -1,28 +1,27 @@
-# Go-CryptoManager
+# Go-CryptoManager 🌐
 
 Go-CryptoManager is a RESTful API service written in Go, designed to manage cryptocurrency assets. It provides endpoints for creating, retrieving, updating, and deleting cryptocurrency information.
 
-## Features
+## Features 🚀
 
-- List all cryptocurrencies
-- Retrieve a single cryptocurrency by ID
-- Create new cryptocurrency entries
-- Update existing cryptocurrency entries
-- Delete cryptocurrency entries
+- List all cryptocurrencies 💹
+- Retrieve a single cryptocurrency by ID 🔍
+- Create new cryptocurrency entries ➕
+- Update existing cryptocurrency entries 🔄
+- Delete cryptocurrency entries ❌
 
-## Getting Started
+## Getting Started 🏁
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Prerequisites 📋
 
 What things you need to install the software and how to install them:
 
 - Go (version 1.21.4 or higher)
 - MySQL (or MariaDB)
-- A REST client like Postman or cURL (for testing endpoints)
 
-### Installing
+### Installing 🛠️
 
 A step-by-step series of examples that tell you how to get a development environment running:
 
@@ -48,41 +47,41 @@ A step-by-step series of examples that tell you how to get a development environ
 
 5. The server will start at `localhost:8081`.
 
-## Usage
+## Usage 🔑
 
 Here are some example requests you can make to interact with the API:
 
-### List all Cryptocurrencies
+### List all Cryptocurrencies 📜
 
 ```http
 GET /crypto/
 ```
 
-### Get a Single Cryptocurrency
+### Get a Single Cryptocurrency 🔎
 
 ```http
 GET /crypto/{cryptoId}
 ```
 
-### Create a New Cryptocurrency
+### Create a New Cryptocurrency ➕
 
 ```http
 POST /crypto/
 ```
 
-### Update a Cryptocurrency
+### Update a Cryptocurrency ♻️
 
 ```http
 PUT /crypto/{cryptoId}
 ```
 
-### Delete a Cryptocurrency
+### Delete a Cryptocurrency ❌
 
 ```http
 DELETE /crypto/{cryptoId}
 ```
 
-## Built With
+## Built With 🛠️
 
 - [Go](https://golang.org/) - The Go programming language
 - [Gorilla Mux](https://github.com/gorilla/mux) - The HTTP routing and URL matcher for Go
