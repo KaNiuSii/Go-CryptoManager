@@ -34,18 +34,22 @@ A step-by-step series of examples that tell you how to get a development environ
    ```sh
    cd Go-CryptoManager
    ```
+3. Change connection string in app.go:
+```go
+d, err := gorm.Open("mysql", "root:3213@tcp(localhost:9999)/cryptorest?charset=utf8&parseTime=True&loc=Local")
+```
 
-3. Build the project:
+4. Build the project:
    ```sh
    go build
    ```
 
-4. Run the service:
+5. Run the service:
    ```sh
    go run main.go
    ```
 
-5. The server will start at `localhost:8081`.
+6. The server will start at `localhost:8081`.
 
 ## Usage 🔑
 
